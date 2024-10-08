@@ -7,8 +7,8 @@ public class Main {
         playables[1] = (new Piano());
         playables[2] = (new Guitar());
 
-        for (Playable playy : flyingCreatures) {
-            playy.play();
-
+        for (Playable player : playables) {
+            player.play();
+        }
     }
 }

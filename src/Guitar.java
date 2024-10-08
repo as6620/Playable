@@ -1,2 +1,2 @@
-public class Guitar {
+public class Guitar implements Playable{
 }
